@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ludo Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Online Ludo</h1>
+
+<div class="board">
+
+<div class="red"></div>
+<div class="green"></div>
+<div class="yellow"></div>
+<div class="blue"></div>
+
+</div>
+
+<button onclick="rollDice()">Dice Roll</button>
+
+<p id="dice"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

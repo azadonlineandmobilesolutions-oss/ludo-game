@@ -1,0 +1,29 @@
+body{
+text-align:center;
+font-family:Arial;
+}
+
+.board{
+width:400px;
+height:400px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr;
+}
+
+.red{
+background:red;
+}
+
+.green{
+background:green;
+}
+
+.yellow{
+background:yellow;
+}
+
+.blue{
+background:blue;
+}
